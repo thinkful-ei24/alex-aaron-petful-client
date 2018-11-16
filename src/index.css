@@ -64,3 +64,20 @@ code {
 button {
   width: 100px;
 }
+
+@media only screen and (max-width: 700px) {
+  .dogs {
+    grid-column: 2 / 5;
+    font-size: 18px;
+  }
+  
+  .cats {
+    grid-column: 7 / 10;
+    font-size: 18px;
+  }
+
+  .catPic, .dogPic {
+    height: 100px;
+    width: 100px;
+  }
+}
