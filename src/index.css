@@ -66,8 +66,13 @@ button {
 }
 
 p {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.onboard {
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -84,5 +89,9 @@ p {
   .catPic, .dogPic {
     height: 100px;
     width: 100px;
+  }
+
+  p {
+    max-width: 80%;
   }
 }

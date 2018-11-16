@@ -14,7 +14,8 @@ class App extends Component {
 
     if (this.props.onboardReducer.onboard === true) {
       return (
-        <React.Fragment>
+        <div className="onboard">
+          
           <h1>Petful</h1>
           <p>Looking for a dog or a cat to adopt? Look no further, you have found the spot! Here at Petful we pair you with the perfect dog or cat. We also have a policy in place to make sure that no dog or cat stays here longer than they have to. Whenever you're ready, click the button below and we can get started and look at the dog and cat available to you!</p>
           <button
@@ -24,7 +25,7 @@ class App extends Component {
           >
             Let's Go!
           </button>
-        </React.Fragment>
+        </div>
       );
     }
     if (this.props.onboardReducer.onboard === false) {
