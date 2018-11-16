@@ -51,6 +51,7 @@ code {
 }
 
 .imgBoxCat, .imgBoxDog {
+  text-align: center;
   max-width: 35%;
   max-height: 35%;
 }
