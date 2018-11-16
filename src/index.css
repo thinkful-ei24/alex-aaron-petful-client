@@ -30,13 +30,18 @@ code {
 }
 
 .dogs {
-  grid-row: 4 / 11;
+  grid-row: 3 / 11;
   grid-column: 1 / 6;
   text-align: center;
 }
 
 .cats {
-  grid-row: 4 / 11;
+  grid-row: 3 / 11;
   grid-column: 6 / 11;
   text-align: center;
+}
+
+.catPic, .dogPic {
+  width: 60%;
+  height: auto;
 }

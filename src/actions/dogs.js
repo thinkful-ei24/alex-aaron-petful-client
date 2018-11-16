@@ -26,3 +26,10 @@ export const getDogsAction = () => dispatch => {
         .then(res => dispatch(fetchDogsSuccess(res)))
         .catch(err => dispatch(fetchDogsError()))
 }
+
+export const deleteDogsAction = () => dispatch => {
+    fetch('https://alex-aaron-petful-server.herokuapp.com/api/dog', {
+        method: 'DELETE'
+    })
+    .then(res => res.json());
+}
