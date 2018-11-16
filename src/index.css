@@ -22,6 +22,7 @@ code {
   grid-template-rows: repeat(10, 10%);
   border: solid 1px white;
   height: 100vh;
+  width: 100vw;
 }
 
 .petGrid h1 {
