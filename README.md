@@ -11,3 +11,4 @@ The app is using free dynos, so it might require a refresh while the servers are
 ### Tech Stack
 
 React - https://reactjs.org/
+React-Redux - https://redux.js.org/
