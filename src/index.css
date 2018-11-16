@@ -9,6 +9,7 @@ body {
   max-height: 100vh;
   max-width: 100vw;
   background-color: rgb(207, 245, 247);
+  text-align: center;
 }
 
 code {
@@ -23,6 +24,7 @@ code {
   border: solid 1px white;
   max-height: 100vh;
   max-width: 100vw;
+  text-align: center;
 }
 
 .petGrid h1 {
@@ -48,6 +50,7 @@ code {
 .catPic, .dogPic {
   max-height: 100%;
   max-width: 100%;
+  text-align: center;
 }
 
 .imgBoxCat, .imgBoxDog {
