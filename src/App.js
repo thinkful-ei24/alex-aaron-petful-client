@@ -27,7 +27,12 @@ class App extends Component {
           <h1>Petful</h1>
           <section className="dogs">
             <h2>Dogs</h2>
-            <img className="dogPic" src={this.props.dogReducer.dogs.imageURL} />
+            <div className="imgBoxDog">
+              <img
+                className="dogPic"
+                src={this.props.dogReducer.dogs.imageURL}
+              />
+            </div>
             <h4>Name: {this.props.dogReducer.dogs.name}</h4>
             <h4>Gender: {this.props.dogReducer.dogs.sex}</h4>
             <h4>Age: {this.props.dogReducer.dogs.age}</h4>
@@ -44,7 +49,12 @@ class App extends Component {
           </section>
           <section className="cats">
             <h2>Cats</h2>
-            <img className="catPic" src={this.props.catReducer.cats.imageURL} />
+            <div className="imgBoxCat">
+              <img
+                className="catPic"
+                src={this.props.catReducer.cats.imageURL}
+              />
+            </div>
             <h4>Name: {this.props.catReducer.cats.name}</h4>
             <h4>Gender: {this.props.catReducer.cats.sex}</h4>
             <h4>Age: {this.props.catReducer.cats.age}</h4>

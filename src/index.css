@@ -46,8 +46,8 @@ code {
 }
 
 .catPic, .dogPic {
-  height: 30%;
-  width: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 button {
