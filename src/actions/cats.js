@@ -31,5 +31,6 @@ export const deleteCatsAction = () => dispatch => {
     fetch('https://alex-aaron-petful-server.herokuapp.com/api/cat', {
         method: 'DELETE'
     })
-    .then(res => res.json());
+    .then(res => res.json())
+    .then(res => dispatch(fetchCatsSuccess(res)));
 }

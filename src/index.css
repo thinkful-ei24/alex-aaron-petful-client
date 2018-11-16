@@ -44,6 +44,6 @@ code {
 }
 
 .catPic, .dogPic {
-  width: 60%;
-  height: auto;
+  height: 30%;
+  width: auto;
 }
