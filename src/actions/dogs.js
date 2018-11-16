@@ -21,8 +21,8 @@ export const fetchDogsError = value => {
 
 export const getDogsAction = () => dispatch => {
     dispatch(fetchDogsRequest())
-    fetch('urlhere')
+    fetch('https://alex-aaron-petful-server.herokuapp.com/api/dog')
         .then(res => res.json())
         .then(res => dispatch(fetchDogsSuccess(res)))
-        .then(err => dispatch(fetchDogsError()))
+        .catch(err => dispatch(fetchDogsError()))
 }
