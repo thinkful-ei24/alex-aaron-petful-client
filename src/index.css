@@ -50,6 +50,11 @@ code {
   max-width: 100%;
 }
 
+.imgBoxCat, .imgBoxDog {
+  max-width: 35%;
+  max-height: 35%;
+}
+
 button {
   width: 100px;
 }
