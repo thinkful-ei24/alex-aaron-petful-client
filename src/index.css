@@ -6,9 +6,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-height: 100vh;
+  background-color: rgb(207, 245, 247);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.petGrid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 10%);
+  border: solid 1px white;
+  height: 100vh;
+}
+
+.petGrid h1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 11;
+  text-align: center;
+}
+
+.dogs {
+  grid-row: 4 / 11;
+  grid-column: 1 / 6;
+  text-align: center;
+}
+
+.cats {
+  grid-row: 4 / 11;
+  grid-column: 6 / 11;
+  text-align: center;
 }
