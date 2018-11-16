@@ -21,8 +21,8 @@ code {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 10%);
   border: solid 1px white;
-  height: 100vh;
-  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 
 .petGrid h1 {
